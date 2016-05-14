@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+       <bean id="mainApp" class="ua.eyecare.controller.MainApp" factory-method="getInstance" destroy-method="onDestroy">
+              <property name="lobjs" ref="lobjs"/>
+              <property name="props" ref="properties"></property>
+              <property name="timer" ref="timer"></property>
+              <property name="loader" ref="strLoader"/>
+       </bean>
+
+
+       <bean id="properties" class="ua.eyecare.tools.AppProperties" destroy-method="onDestroy">
+              <constructor-arg value="config.properties"/>
+              <property name="lobjs" ref="lobjs"/>
+       </bean>
+
+
+
+       <bean id="timer" class="ua.eyecare.tools.EyeCareTimer">
+              <constructor-arg ref="properties"/>
+       </bean>
+
+       <bean id="smallEyeCare" class="ua.eyecare.model.EyeCare" depends-on="strLoader"
+             factory-bean="mainApp" factory-method="loadSmallEyeCare">
+              <property name="stringLoader" ref="strLoader"/>
+       </bean>
+
+
+
+       <bean id="lobjs"  class="java.util.HashSet">
+
+       </bean>
+
+
+       <bean id="strLoader" class="ua.eyecare.tools.StringLoader" depends-on="properties">
+              <constructor-arg ref="properties"/>
+              <constructor-arg value="/string-res/localization_data_"/>
+       </bean>
+
+       <bean id="version" class="java.lang.String">
+              <constructor-arg value="/\-------------------1.0.4-------------------/\"/>
+
+       </bean>
+</beans>

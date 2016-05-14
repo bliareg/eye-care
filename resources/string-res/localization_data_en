@@ -1,0 +1,28 @@
+#English lang resource file
+
+SW_label=Eye Care
+SW_settingsToolTip=Settings
+SW_exitToolTip=Exit app
+
+# Messages for small window
+SW_Intro=First start, please configure\nthe program in settings\nwindow. Move the window\n"EyeCare" to preserve its\ncoordinates.
+SW_message1=Tightly close your eyes for\n3-5 seconds. Open your\neyes and do not blink 3-5\nseconds. Repeat 7-8 times.
+SW_message2=Close your eyes.\nAt first rotate eyeballs on\ncircles, then up and down,\nleft and right. Repeat several\ntimes.
+SW_message3=Tightly close your eyes for\n3 sec., then open for 3 sec.\nRepeat 5 times.
+SW_message4=Come to the window, and\nlook far out for several\nminutes.
+SW_message5=Look at the opposite wall\nand move your eyes, like\nyou are writing your eyes.\nDo not move your head.
+SW_message6=Close your eyes and\nmassage them with circular\nmovement sof the fingers\nwithout pressing on eyeballs,\nfor 1-2 minutes.
+SW_message7=Close your eyes for a few\nseconds, then rapidly open.\nRepeat 4-7 times. 
+ 
+message_count=7
+
+# Setting window string resources
+ST_title=Settings
+ST_labelLanguage=Language
+ST_labelWindow=Type of window
+ST_labelShowingTime=Showing time
+ST_labelHidingTime=Hiding time
+ST_buttonDefault=Default
+ST_CB_WindowElementS=Small window
+ST_CB_WindowElementL=Large window
+

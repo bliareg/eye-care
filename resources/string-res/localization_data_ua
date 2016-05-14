@@ -1,0 +1,29 @@
+#Ukrainian lang resource file
+
+SW_label=Eye Care
+SW_settingsToolTip=Налаштування
+SW_exitToolTip=Вийти з програми
+
+# Messages for small window
+SW_Intro=Налаштуйте програму\nу в╕кн╕ налаштувань.\nПересувайте в╕кно\n"EyeCare" для збереження\nйого координат.
+SW_message1=М╕цно примружтеся на\n3-5 секунд. В╕дкрийте оч╕\n╕ не блимайте 3-5 секунд.\nПовторити 7-8 раз╕в.
+SW_message2=Закрийте оч╕. Очними\nяблуками обертайте\nспочатку по колу, пот╕м\nвгору-вниз, вправо-вл╕во.\nПовторити к╕лька раз╕в.
+SW_message3=М╕цно зажмурте оч╕ на 3 с.,\nпот╕м в╕дкрийте на 3 с.\nПовторити 5 раз╕в.
+SW_message4=П╕д╕йд╕ть до в╕кна та\nдив╕ться вдалеч к╕лька\nхвилин.
+SW_message5=Подив╕ться на протилежну\nст╕ну ╕ вод╕ть очима так,\nяк н╕би ви пишете очима.\nНе рухайте головою.
+SW_message6=Закрийте оч╕ ╕ масажуйте\n╖х круговими рухами\nпальц╕в, не натискаючи\nна очн╕ яблука,\nпротягом 1-2 хвилин.
+SW_message7=Закрийте оч╕ на к╕лька\nсекунд, п╕сля чого р╕зко\nв╕дкрийте.\nПовторити 4-7 раз╕в.
+ 
+message_count=7
+
+# Setting window string resources
+ST_title=Налаштування
+ST_labelLanguage=Мова
+ST_labelWindow=Вид в╕кна
+ST_labelShowingTime=Час показу
+ST_labelHidingTime=Час схову
+ST_buttonDefault=Стандартн╕
+ST_CB_WindowElementS=Мале в╕кно
+ST_CB_WindowElementL=Велике в╕кно
+
+
